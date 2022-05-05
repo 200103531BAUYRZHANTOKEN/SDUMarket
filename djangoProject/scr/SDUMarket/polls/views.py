@@ -79,14 +79,17 @@ def home(request):
 
     room_count = rooms.count()
 
+    room_messages = Message.objects.filter(Q(room__topic__name__icontains=q))
 
 
-    context = {'rooms': rooms, 'topics': topics, 'room_count': room_count}
+
+    context = {'rooms': rooms, 'topics': topics,
+     'room_count': room_count, 'room_messages': room_messages }
     return render(request, 'templates/home.html', context)
 
 def room(request, pk):
     room = Room.objects.get(id=pk)
-    room_messages = room.message_set.all().order_by('-created')
+    room_messages = room.message_set.all()
     participants = room.participants.all()
 
     if request.method == 'POST':
@@ -105,6 +108,15 @@ def room(request, pk):
     return render(request, 'templates/room.html',context)
 
 
+def userProfile(request, pk):
+    user = User.objects.get(id=pk)
+    rooms = user.room_set.all()
+
+    room_messages = user.message_set.all()
+    topics = Topic.objects.all()
+    context = {'user':user, 'rooms': rooms, 
+               'room_messages': room_messages, 'topics': topics}
+    return render(request, 'templates/profile.html', context)
 
 @login_required(login_url='login')
 def createRoom(request):
@@ -134,7 +146,10 @@ def updateRoom(request, pk):
     if request.method == 'POST':
         form = RoomForm(request.POST,instance=room)
         if form.is_valid:
-            form.save()
+
+            room =  form.save(commit = False)
+            room.host = request.user
+            room.save()
             return redirect('home')
 
     context = {'form': form}
