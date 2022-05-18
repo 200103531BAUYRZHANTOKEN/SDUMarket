@@ -18,7 +18,8 @@ That is, each action checks whether the user exists or not. Of course, the user 
 It is also required for delete messages
 
 # Screnshots
-![Main template](Main template.png)
+![Screnshots](Main template.png)
+
 ![Login](login.png)
 
 ![logout view in site](logout view in site.png)
