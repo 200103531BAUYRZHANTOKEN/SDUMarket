@@ -18,7 +18,7 @@ That is, each action checks whether the user exists or not. Of course, the user 
 It is also required for delete messages
 
 # Screnshots
-![Screnshots](Main template.png)
+![Screnshots](https://github.com/200103531BAUYRZHANTOKEN/SDUMarket/blob/main/Main%20template.png)
 
 ![login](login.png)
 
