@@ -26,7 +26,7 @@ It is also required for delete messages
 
 ![create user](https://github.com/200103531BAUYRZHANTOKEN/SDUMarket/blob/main/create%20user.png)
 
-![edit room](edit room.png)
+![edit room](https://github.com/200103531BAUYRZHANTOKEN/SDUMarket/blob/main/edit%20room.png)
 
 ![update and delete view](https://github.com/200103531BAUYRZHANTOKEN/SDUMarket/blob/main/update%20and%20delete%20view.png)
 
