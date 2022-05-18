@@ -28,7 +28,7 @@ It is also required for delete messages
 
 ![edit room](edit room.png)
 
-![update and delete view[](update and delete view.png](https://github.com/200103531BAUYRZHANTOKEN/SDUMarket/blob/main/update%20and%20delete%20view.png))
+![update and delete view](https://github.com/200103531BAUYRZHANTOKEN/SDUMarket/blob/main/update%20and%20delete%20view.png)
 
 ![Create room](Create room.png)
 
