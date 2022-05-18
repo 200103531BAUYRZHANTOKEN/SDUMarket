@@ -24,7 +24,7 @@ It is also required for delete messages
 
 ![logout view in site](https://github.com/200103531BAUYRZHANTOKEN/SDUMarket/blob/main/logout%20view%20in%20site.png)
 
-![create user](create user.png)
+![create user](https://github.com/200103531BAUYRZHANTOKEN/SDUMarket/blob/main/create%20user.png)
 
 ![edit room](edit room.png)
 
