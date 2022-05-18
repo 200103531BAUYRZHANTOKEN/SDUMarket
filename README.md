@@ -20,7 +20,7 @@ It is also required for delete messages
 # Screnshots
 ![Screnshots](Main template.png)
 
-![Login](login.png)
+![login](login.png)
 
 ![logout view in site](logout view in site.png)
 
