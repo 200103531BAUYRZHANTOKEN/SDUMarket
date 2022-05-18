@@ -22,7 +22,7 @@ It is also required for delete messages
 
 ![login](login.png)
 
-![logout view in site][(logout view in site.png)](https://github.com/200103531BAUYRZHANTOKEN/SDUMarket/blob/main/logout%20view%20in%20site.png)
+![logout view in site](https://github.com/200103531BAUYRZHANTOKEN/SDUMarket/blob/main/logout%20view%20in%20site.png)
 
 ![create user](create user.png)
 
